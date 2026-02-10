@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejemplo 1</title>
+</head>
+<body>
+    <h1>JS ES6</h1>
+     <p>ver la consola ...</p>
+    <script>
+        // Mostrar datos de una persona
+        let nombre = "Maria";
+        const edad = 43;
+
+             // funcion  mostrarPersona version clasica 
+        function  mostrarPersonaClasica(){
+            let mensaje =  `Nombre: ${nombre}, Edad: ${edad} años`;
+            //let mensaje = "Nombre:" + nombre + ", Edad:" + edad + " años"
+            console.log(mensaje);
+        };
+
+        // funcion  mostrarPersona version flecha 
+        const mostrarPersona = () => {
+            let mensaje =  `Nombre: ${nombre}, Edad: ${edad} años`;
+            //let mensaje = "Nombre:" + nombre + ", Edad:" + edad + " años"
+            console.log(mensaje);
+        };
+
+        // Llamamos a la función de tipo flecha
+        mostrarPersona();
+
+
+    </script>
+</body>
+</html>
